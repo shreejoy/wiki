@@ -2,4 +2,4 @@ FROM shreejoy/pex-wiki:latest
 
 COPY . /app
 
-CMD ["bash", "build.sh"]
+CMD ["bash", "run.sh"]
