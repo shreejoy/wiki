@@ -1,6 +1,5 @@
 FROM shreejoy/pex-wiki:latest
 
-COPY . /src
-WORKDIR /src
+COPY . /app
 
 CMD ["bash", "build.sh"]
